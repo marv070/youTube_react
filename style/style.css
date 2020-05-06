@@ -24,3 +24,8 @@
 .list-group-item:hover {
   background-color: #eee;
 }
+
+.utube-title {
+  display: flex;
+  justify-content: center;
+}

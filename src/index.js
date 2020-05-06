@@ -32,6 +32,9 @@ class App extends Component {
     }, 300);
     return (
       <div>
+        <span className="utube-title">
+          <h2>YouTube Video search!!</h2>
+        </span>
         <SearchBar onSearchTermChange={videoSearch} />
         <VideoDetail video={this.state.selectedVideo} />
         <VideoList
